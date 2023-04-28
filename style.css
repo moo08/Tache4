@@ -1,0 +1,611 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+nav a{
+    width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1em;
+    color: black;
+}
+
+.section1{
+    height: 650px;
+    width: 100%;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bakeli{
+    height: 80px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 180px;
+    padding: 2px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.section-2{
+    width: 80%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.section-2 h2{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.section-2 .one{
+    margin-left: 90px;
+}
+
+.section-2 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3{
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gris{
+    margin-top: -50px;
+}
+
+.gris h3{
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 60px;
+}
+
+.gris a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.section-4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1 fr;
+    grid-template-rows: 300px 300px;
+}
+
+.section-4 .div-1 img{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4 .div-2 img{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-1{
+    display: flex;
+    align-items: center;
+}
+
+.div-2{
+    display: flex;
+    align-items: center;
+}
+
+.wp{
+    background: #83cbcf;
+}
+
+.hc{
+    background: #67b4cc;
+}
+
+.can{
+    background: #717967;
+}
+
+.js{
+    background: #649a97;
+}
+
+.jv{
+    background: #827263;
+}
+
+.ic{
+    background: #35a0ae;
+}
+
+.ae{
+    background: #237792;
+}
+
+.pt{
+    background: #a5c0ad;
+}
+
+.section-5{
+    height: 500px;
+    padding-top: 50px;
+}
+
+.section-5 .two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-5 h3{
+    margin: 40px;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.section-5 .bar{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    margin-left: 180px;
+}
+
+.section-5 .info{
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-left: 8px;
+}
+.section-5 .infor{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 550px;
+}
+
+.section-5 .red{
+    display: flex;
+    padding-top: 30px;
+}
+
+.red .ohh{
+    position: absolute;
+    margin-left: 630px;
+}
+
+.red .ohhh{
+    position: absolute;
+    margin-left: 1050px;
+}
+
+.section-5 .ligne{
+    margin-top: 30px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    height: 15px;
+    width: 30%;
+    border-radius: 10px;
+    background: #717967;
+    position: relative;
+}
+
+.section-5 .ligne::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #67b4cc;
+    border-radius: 10px;
+
+}
+
+.section-5 .pra::before{
+    width: 100%;
+}
+
+.section-5 .opp::before{
+    width: 90%;
+}
+
+.section-5 .bak::before{
+    width: 80%;
+}
+.section-5 .frr::before{
+    width: 70%;
+}
+
+.section-6{
+    height: 650px;
+    padding-top: 50px;
+    background: #a5c0ad;
+}
+
+.section-6 h3{
+    padding-bottom: 30px;
+    font-size: 1.9em;
+    color: #fff;
+}
+
+.section-6 p{
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.section-6 .two{
+    align-items: center;
+    text-align: center;
+}
+
+.section-6 .bone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.section-6 img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-6 .one{
+    width: 93%;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.section-6 span{
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+.bone .f1:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.section-7{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-7 img{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.section-7 .odd{
+    margin-top: 100px;
+}
+
+.section-7 .id{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section-8{
+    width: 100%;
+    height: 600px;
+    background: #ebebeb;
+    padding-top: 30px;
+}
+
+.section-8 .texte{
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.texte div p{
+    margin: 15px;
+}
+
+.section-8 .nous{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.section-8 .mai{
+    font-size: 0.8em;
+    opacity: 0.7;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 996px) {
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav{
+        width: 1750px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 750px;
+        font-size: 1.7em;
+    }
+
+    nav a{
+        width: 200px;
+        
+    }
+
+    .section1{
+        width: 1750px;
+        height: 1000px;
+        font-size: 1.8em;
+    }
+
+    .section1 .logo{
+        margin-left: 250px;
+    }
+
+    .section-2{
+        width: 1500px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        font-size: 2.8em;
+    }
+
+    .section-2 h2{
+        font-size: 1.2em;
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+
+    .section-2 img{
+        margin-left: 200px;
+    }
+
+    .section-2 .one{
+        margin-left: 220px;
+    }
+
+    .section-3{
+        width: 1750px;
+        height: 700px;
+        font-size: 2.8em;
+        padding-top: 70px;
+    }
+
+    .section-3 .gris{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+        margin-left: 50px;
+    }
+
+    .section-4{
+        width: 1700px;
+        height: 4300px;
+    }
+
+    .section-4 .div-1{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .section-4 .div-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2500px;
+    }
+
+    .section-4 .div-1 img{
+        margin-left: 300px;
+        width: 1000px;
+        height: 750px;
+    }
+
+    .section-4 .div-2 img{
+        margin-left: 300px;
+        width: 1000px;
+        height: 750px;
+    }
+    
+    .wp{
+        width: 100%;
+    }
+    
+    .hc{
+        width: 100%;
+    }
+    
+    .can{
+        width: 100%;
+    }
+    
+    .js{
+        width: 100%;
+    }
+    
+    .jv{
+        width: 100%;
+    }
+    
+    .ic{
+        width: 100%;
+    }
+    
+    .ae{
+        width: 100%;
+    }
+    
+    .pt{
+        width: 100%;
+    }
+
+    .section-5{
+        width: 1650px;
+        height: 1100px;
+        font-size: 2.5em;
+        margin-top: 1500px;
+    }
+
+    .section-5 .bar{
+        width: 2400px;
+    }
+
+    .section-5 .red{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .section-5 .ligne{
+        margin-top: 100px;
+    }
+
+.section-5 .info{
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 40px;
+    }
+
+    .red .ohh{
+        position: absolute;
+        margin-top: 140px;
+        margin-left: 5px;
+    }
+    
+    .red .ohhh{
+        position: absolute;
+        margin-top: 140px;
+        margin-left: 1220px;
+    }
+
+    .section-5 .ligne{
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .section-6{
+        width: 1750px;
+        height: 4000px;
+        font-size: 2.8em;
+    }
+
+    .section-6 .bone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-6 .f1{
+        width: 535px;
+        height: 700px;
+        margin-bottom: 170px;
+        margin-left: -200px;
+    }
+
+    .section-6 img{
+        width: 700px;
+        height: 600px;
+    }
+
+    .section-6 .one{
+        width: 700px;
+        height: 200px;
+    }
+
+    .section-7{
+        width: 1750px;
+        font-size: 1.4em;
+    }
+
+    .section-7 img{
+        margin-left: 700px;
+    }
+
+    .section-8{
+        width: 1750px;
+        font-size: 1.7em;
+    }
+
+    .section-5 .infor{
+        width: 58%;
+    }
+
+    .section-5 .info{
+        width: 110%;
+    }
+}
